@@ -123,3 +123,10 @@ To run the project locally without Docker:
 pip install -r requirements.txt
 uvicorn main:app --reload
 ```
+## Access the backend Documentation using the Azure vm ip
+
+```bash
+
+http://20.84.56.193:8000/docs#/default
+
+```
